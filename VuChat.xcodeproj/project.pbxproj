@@ -13,6 +13,7 @@
 		EA430DE42193A104001AF330 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA430DE32193A104001AF330 /* Assets.xcassets */; };
 		EA430DE72193A104001AF330 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA430DE52193A104001AF330 /* LaunchScreen.storyboard */; };
 		EA430DEF2193C8C5001AF330 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA430DEE2193C8C5001AF330 /* WelcomeViewController.swift */; };
+		EA8E7C752199FCE900A0EB94 /* FinishRegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8E7C742199FCE900A0EB94 /* FinishRegistrationViewController.swift */; };
 		EAB16C222193EAB30069E74E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EAB16C212193EAB30069E74E /* GoogleService-Info.plist */; };
 		EAB16C262193EEA40069E74E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB16C252193EEA40069E74E /* Constants.swift */; };
 		EAB16C2A2193EF110069E74E /* FUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB16C292193EF110069E74E /* FUser.swift */; };
@@ -31,6 +32,7 @@
 		EA430DE62193A104001AF330 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EA430DE82193A104001AF330 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EA430DEE2193C8C5001AF330 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		EA8E7C742199FCE900A0EB94 /* FinishRegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishRegistrationViewController.swift; sourceTree = "<group>"; };
 		EAB16C212193EAB30069E74E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		EAB16C252193EEA40069E74E /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		EAB16C292193EF110069E74E /* FUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FUser.swift; path = /Users/vuduong/Desktop/VuChat/VuChat/FUser.swift; sourceTree = "<absolute>"; };
@@ -90,10 +92,9 @@
 			children = (
 				EA430DDC2193A101001AF330 /* AppDelegate.swift */,
 				EA430DEE2193C8C5001AF330 /* WelcomeViewController.swift */,
-				EAB16C2B2193F4650069E74E /* CollectionReference.swift */,
-				EAB16C252193EEA40069E74E /* Constants.swift */,
-				EAB16C2D2193F53F0069E74E /* HelperFunctions.swift */,
-				EAB16C292193EF110069E74E /* FUser.swift */,
+				EA8E7C742199FCE900A0EB94 /* FinishRegistrationViewController.swift */,
+				EAEA747E2199FE1B00D97497 /* Classes */,
+				EA8E7C762199FD2F00A0EB94 /* Helpers */,
 				EA430DE02193A101001AF330 /* Main.storyboard */,
 				EA430DE32193A104001AF330 /* Assets.xcassets */,
 				EA430DE52193A104001AF330 /* LaunchScreen.storyboard */,
@@ -101,6 +102,24 @@
 				EAB16C212193EAB30069E74E /* GoogleService-Info.plist */,
 			);
 			path = VuChat;
+			sourceTree = "<group>";
+		};
+		EA8E7C762199FD2F00A0EB94 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				EAB16C2B2193F4650069E74E /* CollectionReference.swift */,
+				EAB16C252193EEA40069E74E /* Constants.swift */,
+				EAB16C2D2193F53F0069E74E /* HelperFunctions.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		EAEA747E2199FE1B00D97497 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				EAB16C292193EF110069E74E /* FUser.swift */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +278,7 @@
 				EAB16C262193EEA40069E74E /* Constants.swift in Sources */,
 				EAB16C2C2193F4650069E74E /* CollectionReference.swift in Sources */,
 				EAB16C2A2193EF110069E74E /* FUser.swift in Sources */,
+				EA8E7C752199FCE900A0EB94 /* FinishRegistrationViewController.swift in Sources */,
 				EAB16C2E2193F53F0069E74E /* HelperFunctions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
